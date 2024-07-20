@@ -1,27 +1,46 @@
-# Tasklist
+# Task Tracker Project
+
+This project is a task tracker or todo list CRUD application using the AngularJS framework while following this [YouTube Tutorial](https://www.youtube.com/watch?v=3dHNOWTI7H8&t=23s).
+I completed this project to familiarize myself with AngularJS and building simple CRUD applications.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.0.5.
 
+<div style="display:flex;justify-content: center;margin: 1rem;">
+  <img src="./taskappAbout.png" width="200" height="200">
+</div>
+<div style="display: flex; justify-content: space-evenly;">
+<img src="./taskappHome.png" width="300" height="300">
+<img src="./taskAppForm.png" width="300" height="400">
+</div>
+
 ## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. Then run the backend server explained in the next section. From
+here on you can then explore the Webapp.
 
-## Code scaffolding
+## JSON Server Backend
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+The backend of this project is using json-server to simulate a mock REST API.
+PUT, POST, and GET requests are all performed on the db.json file which acts as the backend-server.
+To start the server make sure json-server is first installed on your system, it can be done with :
 
-## Build
+```bash
+npm install json-server
+```
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+To run the server, use the following command:
 
-## Running unit tests
+```bash
+npm run server
+```
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+An item on the db.json database takes the following form
 
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+```json
+{
+  "id": string,
+  "text": "Read Emails",
+  "day": "Tuesday the 18th @ 14h00",
+  "reminder": true
+}
+```
