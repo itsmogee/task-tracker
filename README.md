@@ -38,7 +38,7 @@ An item on the db.json database takes the following form
 
 ```json
 {
-  "id": string,
+  "id": "fe1c",
   "text": "Read Emails",
   "day": "Tuesday the 18th @ 14h00",
   "reminder": true
