@@ -1,3 +1,8 @@
 .add-form {
   margin-bottom: 40px;
+  color: #e7d1aa;
+
+  label {
+    font-weight: 700;
+  }
 }

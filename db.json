@@ -1,21 +1,27 @@
 {
   "tasks": [
     {
-      "id": "1",
-      "text": "Doctors Appointment",
-      "day": "May 5 at 2:30pm",
+      "id": "05ce",
+      "text": "Read Emails",
+      "day": "Today @ 13h00",
       "reminder": false
     },
     {
-      "id": "2",
-      "text": "Meeting at School",
-      "day": "May 6 at 2:30pm",
+      "id": "87a8",
+      "text": "Study Linear Algebra Ch 5",
+      "day": "Tomorrow @ 15h00",
       "reminder": true
     },
     {
-      "id": "3",
-      "text": "Food Shopping",
-      "day": "May 7 at 12:30pm",
+      "id": "b0dc",
+      "text": "Practice Leetcode",
+      "day": "Tomorrow @ 20h00",
+      "reminder": true
+    },
+    {
+      "id": "8fe6",
+      "text": "Get Mom Birthday Gift",
+      "day": "August 1st",
       "reminder": true
     }
   ]

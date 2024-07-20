@@ -1,0 +1,12 @@
+div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  color: #d56e1a;
+
+  h4 {
+    color: #9d9b23;
+  }
+}
